@@ -1,0 +1,26 @@
+.login {
+  &__form {
+    &__right {
+      input {
+        &:first-child {
+          animation-duration: 0.4s;
+        }
+        &:nth-child(2) {
+          animation-duration: 0.5s;
+        }
+        &:nth-child(3) {
+          animation-duration: 0.9s;
+        }
+        &:nth-child(4) {
+          animation-duration: 1.2s;
+        }
+        &:nth-child(5) {
+          animation-duration: 1.4s;
+        }
+      }
+      button {
+        animation-duration: 1.5s;
+      }
+    }
+  }
+}
